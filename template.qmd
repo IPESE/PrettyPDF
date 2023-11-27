@@ -1,25 +1,24 @@
 ---
-title: "Pretty PDFs with Quarto"
-format: PrettyPDF-pdf
+title: "This is the template for pdf of IPESE"
+format: 
+  PrettyPDF-pdf
+author: A proud author
 ---
 
-## Quarto
+## This is a title
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This is a link to the quarto documentation <https://quarto.org>.
 
-### Running Code
+### This is a smaller title
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Ut enim ad minim veniam, **quis nostrud** exercitation ullamco laboris nisi ut *aliquip* ex ea commodo consequat. A code chunk looks like this:
 
 ```{r}
 1 + 1
 ```
 
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
 The `echo: false` option disables the printing of code (only output is displayed).
+
+The image are integrated in the following way:
+
+![An eminent member of the laboratory.](picture.png){width=70%}
